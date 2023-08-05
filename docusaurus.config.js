@@ -10,7 +10,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title:
     "AiShort(ChatGPT Shortcut)-Tag filtering, keyword search, and one-click copy prompts",
-  // tagline: '方便中文使用 ChatGPT 快捷指令',
+   tagline: '方便中文使用 ChatGPT 快捷指令',
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -136,8 +136,8 @@ const config = {
         },
         items: [
           {
-            to: "docs",
-            label: "📘 使用说明",
+            to: "/",
+            label: "首页",
             position: "left",
           },
           {
@@ -147,68 +147,18 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "🛠️ 应用工具",
+            label: "官方网站",
             position: "left",
             items: [
               {
-                label: "IMGPrompt",
-                href: "https://prompt.newzone.top/",
+                label: "奇途AI",
+                href: "https://ai.7tu.co/",
               },
               {
-                label: "文字处理",
-                href: "https://tools.newzone.top/json-translate",
-              },
-              {
-                label: "工具收藏",
-                href: "https://nav.newzone.top",
-              },
-              {
-                label: "Chrome 扩展",
-                href: "https://chrome.google.com/webstore/detail/chatgpt-shortcut/blcgeoojgdpodnmnhfpohphdhfncblnj",
-              },
-              {
-                label: "Edge 扩展",
-                href: "https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin",
-              },
-              {
-                label: "Find on Product Hunt",
-                href: "https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut",
+                label: "AI镜像导航",
+                href: "https://7tu.link",
               },
             ],
-          },
-          {
-            type: "dropdown",
-            label: "反馈建议",
-            position: "left",
-            items: [
-              {
-                label: "📝 提交反馈",
-                to: "/feedback",
-              },
-              {
-                label: "💬 微信交流",
-                href: "https://img.newzone.top/wechat.svg",
-              },
-              {
-                label: "📧 发送邮件",
-                href: "mailto:learndata@newzone.top",
-              },
-              {
-                label: "📺 加入 Discord",
-                href: "https://discord.gg/PZTQfJ4GjX",
-              },
-            ],
-          },
-          { type: "localeDropdown", position: "right" },
-          {
-            href: "https://github.com/rockbenben/ChatGPT-Shortcut",
-            position: "right",
-            className: "header-github-link",
-          },
-          {
-            href: "https://discord.gg/PZTQfJ4GjX",
-            position: "right",
-            className: "header-discord-link",
           },
         ],
       },
