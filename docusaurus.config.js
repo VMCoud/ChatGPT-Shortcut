@@ -136,7 +136,7 @@ const config = {
         },
         items: [
           {
-            to: "/",
+            to: "/#",
             label: "首页",
             position: "left",
           },
